@@ -16,9 +16,9 @@
 }
 
 body {
-    f_______: var(--paragraph-font);
-    m_______: ________;
-    p_______: ________;
+    font-family: var(--paragraph-font);
+    margin: 10px;
+    padding: position;
 }
 
 h1, h2, h3, h4, h5, h6 {
