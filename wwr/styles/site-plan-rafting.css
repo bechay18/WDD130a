@@ -17,8 +17,8 @@
 
 body {
     font-family: var(--paragraph-font);
-    margin: 10px;
-    padding: position;
+    margin: 960px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
