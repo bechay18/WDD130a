@@ -43,6 +43,12 @@ aside {
     text-align: center;
 }
 
+aside h2{
+    position: absolute;
+    top: 47px;
+    left: 150;
+}
+
 aside img {
     width: 200px;
     height: auto;
