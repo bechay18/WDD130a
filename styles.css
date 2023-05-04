@@ -19,6 +19,13 @@ nav a {
 h1 {
     color: steelblue;
 }
+
+aside h2{
+    position: absolute;
+    top: 47px;
+    left: 150;    
+}
+
 img {
     width: 150px;
     height: auto;
@@ -43,11 +50,6 @@ aside {
     text-align: center;
 }
 
-aside h2{
-    position: absolute;
-    top: 47px;
-    left: 150;
-}
 
 aside img {
     width: 200px;
@@ -55,12 +57,9 @@ aside img {
 }
 
 main img {
-
     float: right;
     width: 150px;
     height: auto;
-
-
 }
 
 p { padding: 0;}
