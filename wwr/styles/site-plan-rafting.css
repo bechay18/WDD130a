@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap'); 
 
 :root {
-    --primary-color: #xxxxxx;
-    --secondary-color: #xxxxxx;
-    --accent1-color: #xxxxxx;
-    --accent2-color: #xxxxxx;
+    --primary-color: #023047;
+    --secondary-color: #219EBC;
+    --accent1-color: #FB8500;
+    --accent2-color: #283618;
 
-    --heading-font:'________', serif;
-    --paragraph-font:'________', serif;
+    --heading-font:'bebas neue', serif;
+    --paragraph-font:'urbanist', serif;
 
-    --nav-background-color: #xxxxxx;
-    --nav-link-color: #xxxxxx;
-    --nav-hover-link-color: #xxxxxx;
-    --nav-hover-background-color: #xxxxxx;
+    --nav-background-color: #8ECAE6;
+    --nav-link-color: #ffb703;
+    --nav-hover-link-color: #0a9396;
+    --nav-hover-background-color: #005f73;
 }
 
 body {
