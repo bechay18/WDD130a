@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap'); 
-
 :root {
     --primary-color: #023047;
     --secondary-color: #219EBC;
@@ -14,11 +13,12 @@
     --nav-hover-link-color: #0a9396;
     --nav-hover-background-color: #005f73;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 body {
+
     font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
+    max-width: 400px;
+    padding: 48px;
 }
 
 h1, h2, h3, h4, h5, h6 {
