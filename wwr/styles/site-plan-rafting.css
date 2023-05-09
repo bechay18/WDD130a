@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 :root {
     --primary-color: #023047;
     --secondary-color: #219EBC;
     --accent1-color: #FB8500;
     --accent2-color: #283618;
 
-    --heading-font: 'bebas neue', sans-serif;
-    --paragraph-font: urbanist, sans-serif;
+    --heading-font: ultra;
+    --paragraph-font: ultra;
 
     --nav-background-color: #8ECAE6;
     --nav-link-color: #ffb703;
     --nav-hover-link-color: #0a9396;
     --nav-hover-background-color: #005f73;
 }
-@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 body {
 
     font-family: var(--paragraph-font);
-    max-width: 400px;
-    padding: 48px;
+    max-width: px;
+    padding: 21px;
 }
 
 h1, h2, h3, h4, h5, h6 {
