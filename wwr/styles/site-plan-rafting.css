@@ -6,8 +6,8 @@
     --accent1-color: #FB8500;
     --accent2-color: #283618;
 
-    --heading-font:bebas neue, serif;
-    --paragraph-font:urbanist, serif;
+    --heading-font: 'bebas neue', sans-serif;
+    --paragraph-font: urbanist, sans-serif;
 
     --nav-background-color: #8ECAE6;
     --nav-link-color: #ffb703;
