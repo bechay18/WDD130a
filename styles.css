@@ -1,8 +1,3 @@
-heade, .grid, footer{
-    max-width: 840px;
-    margin: 0 auto;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -13,29 +8,34 @@ body {
     font-size: 16px;
     font-family: roboto, arial, sans-serif;
 }
-header{
-    display: block;
-}
+
 nav { 
     background-color: steelblue; 
-    padding: 1rem; 
+    padding: 10px; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 nav a {
-    display: inline;
-    padding: 0.5rem;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 700;
     color: antiquewhite;
+    display: block;
+    padding: 20px;
 }
 h1 {
     color: steelblue;
     padding: .5rem;
-}
 
+}
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid slategray;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+p{
+    padding: 10px;
+}
 main {
     max-width: 640px;
     font-size: medium;
@@ -53,22 +53,36 @@ main img {
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem;
+    position:-ms-page;
 }
 
 aside {
-    width: 20rem;
-    position: relative;
-    grid-template-columns: 1/2;
-    grid-column: 1/2;
-    float: left;
-    border: 1px solid;
-
+   margin: 1em;
+   border: 1px solid rgba(red, green, blue, alpha);/*1*/
+   padding: 1em;
+   background-color: blueviolet;
+   color: bisque;
+   text-align: center;
+   width: 20em;
 }
 
 aside img {
-    width: 300px;
+    width: 200px;
     height: auto;
 }
+
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+p {padding: 0;}
+
+footer{
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}   
 aside h2{
     position: absolute;
     top: 10px;
@@ -78,6 +92,21 @@ aside h2{
     display: grid;
     align-items: center;
 }
-
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 /* Class Selectors */
-
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(red, green, blue, alpha);
+    padding: 1rem;
+    background-color: bisque;
+    color: aqua;
+}
