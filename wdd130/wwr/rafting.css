@@ -28,6 +28,11 @@ article{
   position: absolute;
 }
 
+img{
+  display: -webkit-box;
+  margin-left: auto;
+}
+
 header {
   margin: 1rem auto;
   display: grid;
