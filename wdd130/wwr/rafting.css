@@ -20,6 +20,7 @@
   height: auto;
 }
 
+
 h1{
   position: absolute;
 }
@@ -29,7 +30,7 @@ article{
 }
 
 img{
-  display: -webkit-box;
+  display: flex;
   margin-left: auto;
 }
 
@@ -40,12 +41,11 @@ header {
   align-items: center;
   border-bottom: 1px solid #FB8500;
   max-width: 1000px;
-  padding: 20px;
 }
 
 .logo img{
   margin: 0 0.25rem 0 1rem;
-  width: 64px;
+  width: auto;
   height: auto;
 }
 
@@ -53,8 +53,7 @@ h1{
   font-size: 2rem;
   font-family: acme, arial, sans-serif;
 }
-
-nav{
+naV{
   text-align: right;
 }
 
@@ -80,8 +79,26 @@ nav{
 	text-decoration: underline;
 }
 
-p{
-  padding: 25px;
+section img{
+  width: auto;
+  height: auto;
+  float: none;
 }
+
+footer{
+  margin-top: 1em;
+  border-top: 1px solid skyblue;
+  text-align: center;
+}
+
+Footer img{
+  width: auto;
+  height: auto;
+  float: none;
+}
+
+
+
+
 
 
