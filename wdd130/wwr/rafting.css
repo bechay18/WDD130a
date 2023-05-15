@@ -22,7 +22,7 @@
 
 
 h1{
-  position: absolute;
+  position: center;
 }
 
 article{
@@ -53,8 +53,8 @@ h1{
   font-size: 2rem;
   font-family: acme, arial, sans-serif;
 }
-naV{
-  text-align: right;
+nav{
+  text-align: center;
 }
 
 .navigation{
