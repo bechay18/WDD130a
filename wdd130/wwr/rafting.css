@@ -52,7 +52,11 @@ header {
 
 
 h1{
-  font-size: 2rem;
+  font-size: 3rem;
+  color: blue;
+  padding: 40px;
+  font: italic medium sans-serif;
+  text-align:right;
   font-family: acme, arial, sans-serif;
 }
 nav ul{
@@ -60,6 +64,8 @@ nav ul{
   display: flex;
   text-align: center;
   justify-content: space-between;
+  font: italic large sans-serif;
+
 }
 figure{
   border: thin #c0c0c0;
