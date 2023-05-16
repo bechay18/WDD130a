@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap'); 
 
-.hero img{
-  display: block;
-  width: 100%;
-  height: auto;
+/* body {
+  background-color: blue;
+} */
+
+figure.hero img{
+ 
+  width: 1500px;
+  margin: 0.25rem 0 1rem;
 }
 
+div.sub-hero {
+  position: absolute;
+  top: 300px;
+  bottom: 20p;
+}
+
+div.sub-hero img {
+  width: 100px;
+  float: right;
+  margin-left: 10px;
+}
 
 h1{
  text-align : center;
@@ -15,10 +30,10 @@ article{
   position: absolute;
 }
 
-img{
+/* img{
   display: flex;
   margin-left: auto;
-}
+} */
 
 header {
   margin: 1rem auto;
@@ -41,6 +56,7 @@ h1{
   font-family: acme, arial, sans-serif;
 }
 nav ul{
+  
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -53,10 +69,10 @@ figure{
   max-width: 220px;
   margin: auto;
 }
-img{
+/* img{
   max-width: 220px;
   max-height: 150px;
-  }
+  } */
 p{
   background-color: aliceblue;
   color:darkblue;
@@ -103,8 +119,8 @@ footer{
 }
 
 Footer img{
-  width: auto;
-  height: auto;
+  width: 50px;;
+  height: 50px;
   float: none;
 }
 
