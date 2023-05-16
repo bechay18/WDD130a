@@ -1,18 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap'); 
-:root {
-  --primary-color: #023047;
-  --secondary-color: #219EBC;
-  --accent1-color: #FB8500;
-  --accent2-color: #283618;
-
-  --heading-font: ultra;
-  --paragraph-font: ultra;
-
-  --nav-background-color: #8ECAE6;
-  --nav-link-color: #ffb703;
-  --nav-hover-link-color: #0a9396;
-  --nav-hover-background-color: #03272e;
-}
 
 .hero img{
   display: block;
@@ -22,7 +8,7 @@
 
 
 h1{
-  position: center;
+ text-align : center;
 }
 
 article{
@@ -45,45 +31,69 @@ header {
 
 .logo img{
   margin: 0 0.25rem 0 1rem;
-  width: auto;
+  width: 100px;
   height: auto;
-  background: none;
-}
+}  
+
 
 h1{
   font-size: 2rem;
   font-family: acme, arial, sans-serif;
 }
-nav{
+nav ul{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+figure{
+  border: thin #c0c0c0;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+img{
+  max-width: 220px;
+  max-height: 150px;
+  }
+p{
+  background-color: aliceblue;
+  color:darkblue;
+  font: italic medium sans-serif;
+  padding: 3px;
+  text-align: justify;
+}  
+figcaption{
+  background-color: aliceblue;
+  color: blue;
+  font: italic smaller sans-serif;
+  padding: 3px;
   text-align: center;
 }
-
-.navigation{
-  display: flex;
-  list-style: none;
+main{
+  max-width: 640px;
 }
-
-.navigation li{
-  flex: 1 1 100%;
+h2{
+  background-color: aliceblue;
+  color: grey;
+  font: italic large sans-serif;
+  padding: 3px;
+  text-align: left;
 }
-
-.navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
+p1{
+  background-color: #FB8500;
+  color: antiquewhite;
+  font: italic small-caption sans-serif;
+  padding: 3px;
+  text-align: end;
 }
-
-.navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
-}
-
-section img{
-  width: auto;
-  height: auto;
-  float: none;
+h3{
+  background-color: none;
+  color: red;
+  font: italic larger sans-serif;
+  padding: 4px;
+  text-align: center;
 }
 
 footer{
