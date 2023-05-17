@@ -13,7 +13,7 @@ figure.hero img{
 div.sub-hero {
   position: absolute;
   top: 300px;
-  bottom: 20p;
+  bottom: 20px;
 }
 
 div.sub-hero img {
@@ -100,16 +100,16 @@ main{
 h2{
   background-color: aliceblue;
   color: grey;
-  font: italic large sans-serif;
+  font: medium italic large sans-serif;
   padding: 3px;
   text-align: left;
 }
 p1{
-  background-color: #FB8500;
-  color: antiquewhite;
-  font: italic small-caption sans-serif;
-  padding: 3px;
-  text-align: end;
+  
+  color: green;
+  font: medium italic sans-serif;
+  padding: 5px;
+  text-align: left;
 }
 h3{
   background-color: whitesmoke;
