@@ -110,7 +110,7 @@ p1{
   color: #FB8500;
   font: medium italic sans-serif;
   padding: 5px;
-  text-align: center;
+  text-align:right;
 }
 h3{
   background-color: whitesmoke;
