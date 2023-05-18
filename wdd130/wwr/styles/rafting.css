@@ -119,6 +119,12 @@ h3{
   padding: 4px;
   text-align: center;
 }
+.label{
+  font: italic larger sans-serif;
+  font-size: large;
+  color: blue;
+  padding: 4px;
+}
 
 footer{
   margin-top: 1em;
