@@ -100,16 +100,16 @@ main{
 h2{
   background-color: aliceblue;
   color: grey;
-  font: medium italic large sans-serif;
+  font: italic large sans-serif;
   padding: 3px;
   text-align: left;
 }
 p1{
   
-  color: green;
+  color: antiquewhite;
   font: medium italic sans-serif;
   padding: 5px;
-  text-align: center;
+  text-align: left;
 }
 h3{
   background-color: whitesmoke;
@@ -118,10 +118,7 @@ h3{
   padding: 4px;
   text-align: center;
 }
-h4{
-  color: blue;
-  font: italic larger sans-serif;
-}
+
 footer{
   margin-top: 1em;
   border-top: 1px solid skyblue;
