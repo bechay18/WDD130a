@@ -101,15 +101,16 @@ h2{
   background-color: aliceblue;
   color: grey;
   font: italic large sans-serif;
-  padding: 3px;
-  text-align: left;
+  padding: 5px;
+  text-align: center;
 }
 p1{
   
   color: antiquewhite;
+  color: #FB8500;
   font: medium italic sans-serif;
   padding: 5px;
-  text-align: left;
+  text-align: center;
 }
 h3{
   background-color: whitesmoke;
